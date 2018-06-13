@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\aom\build\aom_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\aom\src\aom_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\aom\src\aom_decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\aom\src\aom_encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\aom\src\aom_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\aom\src\aom_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\aom\build\aom_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_frame_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aom_integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aomcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\aomdx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\aom\aom\internal\aom_codec_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aom\CMakeLists.txt" />
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\aom_convolve_copy_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\aom_subpixel_8t_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\aom_subpixel_bilinear_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\intrapred_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\aom_high_subpixel_8t_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\aom_high_subpixel_bilinear_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\highbd_intrapred_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\602251d6444bdf843e574ccdb488d325\inv_wht_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\halfpix_variance_impl_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\sad4d_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\sad_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\subtract_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\subpel_variance_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\highbd_sad4d_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\highbd_sad_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\highbd_subpel_variance_impl_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\ec8573215d687fd37f514b0ed20e8770\highbd_variance_impl_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\f4ecd43b8de39cd977a3cee41a623787\sad_sse3.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\698e168f9f318bd4ad64c017889d2d29\aom_subpixel_8t_ssse3.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\698e168f9f318bd4ad64c017889d2d29\aom_subpixel_bilinear_ssse3.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\d6489de42d40bc1e9d68e6f1cac02142\sad_ssse3.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\69260429c282a6bbf17db8407dc50c9e\sad_sse4.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\acab8705562c343554cf19959c5543b8\emms.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\b949bf655276dbd02979db3fba1fee4e\dct_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\b949bf655276dbd02979db3fba1fee4e\error_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\aom\build\CMakeFiles\b949bf655276dbd02979db3fba1fee4e\temporal_filter_apply_sse2.asm.o.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\aom\build\aom_rtcd.dir\$(Configuration)\aom_dsp_rtcd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_rtcd.dir\$(Configuration)\aom_scale_rtcd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_rtcd.dir\$(Configuration)\av1_rtcd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\aom_convolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\blend_a64_hmask.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\blend_a64_mask.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\blend_a64_vmask.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\intrapred.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\loopfilter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\subtract.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\entcode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common.dir\$(Configuration)\inv_txfm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_decoder.dir\$(Configuration)\binary_codes_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_decoder.dir\$(Configuration)\bitreader_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_decoder.dir\$(Configuration)\daalaboolreader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_decoder.dir\$(Configuration)\entdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_decoder.dir\$(Configuration)\grain_synthesis.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\binary_codes_writer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\bitwriter_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\grain_table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\noise_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\noise_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\psnr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\sad.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\sad_av1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\variance.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\avg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\fwd_txfm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\quantize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\sum_squares.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\daalaboolwriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder.dir\$(Configuration)\entenc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\aom_convolve_copy_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\aom_subpixel_8t_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\aom_subpixel_bilinear_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\intrapred_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\aom_high_subpixel_8t_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\aom_high_subpixel_bilinear_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\highbd_intrapred_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_sse2\inv_wht_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\aom_asm_stubs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\intrapred_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\loopfilter_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\highbd_intrapred_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\highbd_loopfilter_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\inv_txfm_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\halfpix_variance_impl_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\sad4d_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\sad_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\subtract_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\subpel_variance_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\highbd_sad4d_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\highbd_sad_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\highbd_subpel_variance_impl_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse2\highbd_variance_impl_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\quantize_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\avg_intrin_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\fwd_dct32_8cols_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\fwd_txfm_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\halfpix_variance_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_quantize_intrin_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\variance_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\sum_squares_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_subtract_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_variance_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse3\sad_sse3.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_ssse3\aom_subpixel_8t_ssse3.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_common_ssse3\aom_subpixel_bilinear_ssse3.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\aom_subpixel_8t_intrin_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\intrapred_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\inv_txfm_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\highbd_convolve_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_ssse3\sad_ssse3.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\masked_sad_intrin_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\masked_variance_intrin_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\jnt_variance_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\jnt_sad_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_hmask_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_mask_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_vmask_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\highbd_variance_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\obmc_sad_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\obmc_variance_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_dsp_encoder_sse4_1\sad_sse4.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\aom_subpixel_8t_intrin_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\intrapred_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\inv_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\highbd_convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\highbd_loopfilter_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\fwd_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_quantize_intrin_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad4d_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad_impl_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\variance_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\variance_impl_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad_highbd_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_mem.dir\$(Configuration)\aom_mem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_ports\emms.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_util.dir\$(Configuration)\aom_thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_util.dir\$(Configuration)\debug_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_scale.dir\$(Configuration)\aom_scale.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_scale.dir\$(Configuration)\gen_scalers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_scale.dir\$(Configuration)\yv12config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_scale.dir\$(Configuration)\yv12extend.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\alloccommon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\av1_inv_txfm1d.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\av1_inv_txfm2d.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\av1_loopfilter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\av1_txfm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\blockd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\convolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\debugmodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\entropy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\entropymode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\entropymv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\filter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\frame_buffers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\idct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\mvref_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\odintrin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\pred_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\quant_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\reconinter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\reconintra.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\resize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\scale.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\scan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\seg_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\thread_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\tile_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\cdef.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\cdef_block.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\txb_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\cfl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\restoration.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common.dir\$(Configuration)\warped_motion.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\av1_dx_iface.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\decodeframe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\decodemv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\decoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\detokenize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\dthread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\obu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_decoder.dir\$(Configuration)\decodetxb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\av1_cx_iface.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\aq_complexity.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\aq_cyclicrefresh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\aq_variance.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\av1_fwd_txfm1d.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\av1_fwd_txfm2d.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\av1_quantize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\bitstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\context_tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\cost.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\dct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\encodeframe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\encodemb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\encodemv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\encoder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\ethread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\extend.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\firstpass.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\hybrid_fwd_txfm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\lookahead.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\mbgraph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\mcomp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\ml.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\palette.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\picklpf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\ratectrl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\rd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\rdopt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\segmentation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\speed_features.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\temporal_filter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\tokenize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\pickcdef.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\wedge_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\corner_detect.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\corner_match.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\global_motion.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\ransac.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\fast_9.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\fast.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\nonmax.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\encodetxb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\pickrst.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\hash_motion.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder.dir\$(Configuration)\vector.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\idct_intrin_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\cdef_block_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\convolve_2d_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\highbd_convolve_2d_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\jnt_convolve_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\convolve_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\wiener_convolve_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\cfl_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_av1_encoder_sse2\dct_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_av1_encoder_sse2\error_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\asm_objects\aom_av1_encoder_sse2\temporal_filter_apply_sse2.asm.o">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\av1_fwd_txfm_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\dct_intrin_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_block_error_intrin_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\av1_quantize_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\wedge_utils_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\encodetxb_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\av1_inv_txfm_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\cdef_block_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\highbd_convolve_2d_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\jnt_convolve_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\highbd_wiener_convolve_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\cfl_ssse3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_txfm_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_inv_txfm_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_highbd_convolve_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\cdef_block_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_convolve_2d_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_jnt_convolve_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_convolve_scale_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_convolve_horiz_rs_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\selfguided_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\intra_edge_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\filterintra_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\warp_plane_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_warp_plane_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_fwd_txfm1d_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_fwd_txfm2d_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_highbd_quantize_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\highbd_fwd_txfm_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\corner_match_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\encodetxb_sse4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_sse42_intrinsics.dir\$(Configuration)\hash_sse42.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_inv_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\hybrid_inv_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\av1_inv_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\cdef_block_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\convolve_2d_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_convolve_2d_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_jnt_convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\jnt_convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_wiener_convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\wiener_convolve_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\cfl_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\selfguided_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_quantize_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_highbd_quantize_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\error_intrin_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\hybrid_fwd_txfm_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp.dir\$(Configuration)\aom_av1_dummy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_dsp.dir\$(Configuration)\aom_dsp_dummy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65B82FF8-85A2-3ECD-986B-84CBE212B478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EBB7CB1F-2D0E-31D5-9ACA-B3DDF159CB7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C772EC43-B3C7-399F-8634-6DD14E45DF61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{7589D534-3F89-3779-9EE4-2894BBDDB6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C56CBEF7-EEC5-3C55-855D-4F305271FFD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

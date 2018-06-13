@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\aom\build\usage_exit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\test_libaom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\simd_cmp_sse2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\simd_cmp_ssse3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\simd_cmp_sse4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\av1_highbd_iht_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\av1_quantize_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\corner_match_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\simd_cmp_avx2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aom\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\args.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\md5_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\tools_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\y4menc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\aom_integer_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\decode_test_driver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\convolve_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\simd_sse2_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\simd_ssse3_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\simd_avx2_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\cdef_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\intrabc_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\intrapred_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\lpf_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\onyxc_int_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\scan_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\filterintra_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\cfl_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\selfguided_filter_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\hiprec_convolve_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\hiprec_convolve_test_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\divu_small_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\ethread_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\film_grain_table_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\coding_path_sync.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\idct8x8_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\superframe_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\tile_independence_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\segment_binarization_sync.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\binary_codes_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\boolcoder_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\ec_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_common.dir\$(Configuration)\av1_ext_tile_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\ivfdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\obudec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\video_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\webmdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_decoder.dir\$(Configuration)\decode_api_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\altref_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\aq_segment_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\datarate_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\encode_api_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\encode_test_driver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\error_resilience_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\horz_superres_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\qm_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\resize_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\y4m_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\monochrome_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\dct32x32_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\sad_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\motion_vector_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\encodetxb_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\active_map_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_txfm_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\borders_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\cpu_speed_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\end_to_end_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\frame_size_tests.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\lossless_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\arf_freq_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_dct_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_fwd_txfm1d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_fwd_txfm2d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_inv_txfm1d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_inv_txfm2d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_wedge_utils_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\avg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\blend_a64_mask_1d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\blend_a64_mask_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\error_block_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\fdct4x4_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\hadamard_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\masked_sad_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\masked_variance_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\comp_mask_variance_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\minmax_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\noise_model_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\subtract_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\sum_squares_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\variance_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_convolve_2d_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_convolve_2d_test_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_convolve_scale_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\warp_filter_test_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\warp_filter_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\intra_edge_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\av1_horz_only_frame_superres_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\hash_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\obmc_sad_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\test_aom_encoder.dir\$(Configuration)\obmc_variance_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\ivfenc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\video_writer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\warnings.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\y4minput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\encoder_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_encoder_app_util.dir\$(Configuration)\webmenc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\cpu_id.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\planar_functions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_any.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_gcc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_mips.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_neon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_neon64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_win.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_any.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_gcc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_mips.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_neon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_neon64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_win.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\hdr_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvmuxer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvmuxerutil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvwriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvparser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvreader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65B82FF8-85A2-3ECD-986B-84CBE212B478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C56CBEF7-EEC5-3C55-855D-4F305271FFD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

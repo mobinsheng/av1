@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\aom\build\usage_exit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\aom\test\test_intra_pred_speed.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aom\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\args.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\md5_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\tools_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\y4menc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65B82FF8-85A2-3ECD-986B-84CBE212B478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C56CBEF7-EEC5-3C55-855D-4F305271FFD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

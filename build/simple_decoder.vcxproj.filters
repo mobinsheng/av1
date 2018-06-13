@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\aom\examples\simple_decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aom\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\args.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\md5_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\tools_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_common_app_util.dir\$(Configuration)\y4menc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\ivfdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\obudec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\video_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\aom_decoder_app_util.dir\$(Configuration)\webmdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\cpu_id.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\planar_functions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_any.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_gcc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_mips.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_neon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_neon64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\row_win.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_any.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_gcc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_mips.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_neon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_neon64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\yuv.dir\$(Configuration)\scale_win.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\hdr_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvmuxer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvmuxerutil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvwriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvparser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\aom\build\webm.dir\$(Configuration)\mkvreader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65B82FF8-85A2-3ECD-986B-84CBE212B478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C56CBEF7-EEC5-3C55-855D-4F305271FFD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EFC79572-3585-34A6-A57F-9F053609856F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\aom\third_party\googletest\src\googletest\include;E:\aom;E:\aom\build;E:\aom\third_party\libyuv\include;E:\aom\third_party\libwebm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\aom\third_party\googletest\src\googletest\include;E:\aom;E:\aom\build;E:\aom\third_party\libyuv\include;E:\aom\third_party\libwebm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\aom\third_party\googletest\src\googletest\include;E:\aom;E:\aom\build;E:\aom\third_party\libyuv\include;E:\aom\third_party\libwebm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\aom\third_party\googletest\src\googletest\include;E:\aom;E:\aom\build;E:\aom\third_party\libyuv\include;E:\aom\third_party\libwebm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aom\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/aom -BE:/aom/build --check-stamp-file E:/aom/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/aom/CMakeLists.txt;E:\aom\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\aom\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;E:\aom\build\cmake\aom_configure.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindwxWidgets.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config_defaults.cmake;E:\aom\build\cmake\aom_experiment_deps.cmake;E:\aom\build\cmake\aom_optimization.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\compiler_flags.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\aom\build\cmake\compiler_tests.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\aom\build\cmake\compiler_tests.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\cpu.cmake;E:\aom\build\aom_config.asm.cmake;E:\aom\build\aom_config.h.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config.c.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\rtcd_config.cmake;E:\aom\aom_dsp\aom_dsp.cmake;E:\aom\aom_mem\aom_mem.cmake;E:\aom\aom_ports\aom_ports.cmake;E:\aom\aom_scale\aom_scale.cmake;E:\aom\aom_util\aom_util.cmake;E:\aom\av1\av1.cmake;E:\aom\test\test.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\ProcessorCount.cmake;E:\aom\test\test_data_util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\msvc_runtime.cmake;E:\aom\build\cmake\sanitizers.cmake;E:\aom\build\cmake\util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\aom\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/aom -BE:/aom/build --check-stamp-file E:/aom/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/aom/CMakeLists.txt;E:\aom\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\aom\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;E:\aom\build\cmake\aom_configure.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindwxWidgets.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config_defaults.cmake;E:\aom\build\cmake\aom_experiment_deps.cmake;E:\aom\build\cmake\aom_optimization.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\compiler_flags.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\aom\build\cmake\compiler_tests.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\aom\build\cmake\compiler_tests.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\cpu.cmake;E:\aom\build\aom_config.asm.cmake;E:\aom\build\aom_config.h.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config.c.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\rtcd_config.cmake;E:\aom\aom_dsp\aom_dsp.cmake;E:\aom\aom_mem\aom_mem.cmake;E:\aom\aom_ports\aom_ports.cmake;E:\aom\aom_scale\aom_scale.cmake;E:\aom\aom_util\aom_util.cmake;E:\aom\av1\av1.cmake;E:\aom\test\test.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\ProcessorCount.cmake;E:\aom\test\test_data_util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\msvc_runtime.cmake;E:\aom\build\cmake\sanitizers.cmake;E:\aom\build\cmake\util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\aom\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/aom -BE:/aom/build --check-stamp-file E:/aom/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/aom/CMakeLists.txt;E:\aom\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\aom\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;E:\aom\build\cmake\aom_configure.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindwxWidgets.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config_defaults.cmake;E:\aom\build\cmake\aom_experiment_deps.cmake;E:\aom\build\cmake\aom_optimization.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\compiler_flags.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\aom\build\cmake\compiler_tests.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\aom\build\cmake\compiler_tests.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\cpu.cmake;E:\aom\build\aom_config.asm.cmake;E:\aom\build\aom_config.h.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config.c.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\rtcd_config.cmake;E:\aom\aom_dsp\aom_dsp.cmake;E:\aom\aom_mem\aom_mem.cmake;E:\aom\aom_ports\aom_ports.cmake;E:\aom\aom_scale\aom_scale.cmake;E:\aom\aom_util\aom_util.cmake;E:\aom\av1\av1.cmake;E:\aom\test\test.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\ProcessorCount.cmake;E:\aom\test\test_data_util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\msvc_runtime.cmake;E:\aom\build\cmake\sanitizers.cmake;E:\aom\build\cmake\util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\aom\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/aom -BE:/aom/build --check-stamp-file E:/aom/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/aom/CMakeLists.txt;E:\aom\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\aom\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;E:\aom\build\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;E:\aom\build\cmake\aom_configure.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindwxWidgets.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config_defaults.cmake;E:\aom\build\cmake\aom_experiment_deps.cmake;E:\aom\build\cmake\aom_optimization.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\compiler_flags.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\aom\build\cmake\compiler_tests.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;E:\aom\build\cmake\compiler_tests.cmake;E:\aom\build\cmake\util.cmake;E:\aom\build\cmake\cpu.cmake;E:\aom\build\aom_config.asm.cmake;E:\aom\build\aom_config.h.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\aom_config.c.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\rtcd_config.cmake;E:\aom\aom_dsp\aom_dsp.cmake;E:\aom\aom_mem\aom_mem.cmake;E:\aom\aom_ports\aom_ports.cmake;E:\aom\aom_scale\aom_scale.cmake;E:\aom\aom_util\aom_util.cmake;E:\aom\av1\av1.cmake;E:\aom\test\test.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\ProcessorCount.cmake;E:\aom\test\test_data_util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPythonInterp.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\build\cmake\msvc_runtime.cmake;E:\aom\build\cmake\sanitizers.cmake;E:\aom\build\cmake\util.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindDoxygen.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;E:\aom\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\aom\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\aom\build\ZERO_CHECK.vcxproj">
+      <Project>{ABB1F87D-A20E-3473-84E8-7EF9FB26427B}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom.vcxproj">
+      <Project>{E43A2335-94C8-32AD-BA39-A8389EFE7CF7}</Project>
+      <Name>aom</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1.vcxproj">
+      <Project>{992745ED-C0FA-38FB-976A-B89F8FBB8464}</Project>
+      <Name>aom_av1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_common.vcxproj">
+      <Project>{710D27E1-DC27-3C22-9199-9BCEC1DE6281}</Project>
+      <Name>aom_av1_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_common_avx2_intrinsics.vcxproj">
+      <Project>{F03122CF-44BD-32A3-BE5C-6E1ACE97096D}</Project>
+      <Name>aom_av1_common_avx2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_common_sse2_intrinsics.vcxproj">
+      <Project>{95F55D2D-2A27-3989-A129-970002FF42DB}</Project>
+      <Name>aom_av1_common_sse2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_common_sse4_intrinsics.vcxproj">
+      <Project>{F6A85C15-58A7-3D2A-9450-E02BFEFAB196}</Project>
+      <Name>aom_av1_common_sse4_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_common_ssse3_intrinsics.vcxproj">
+      <Project>{B8AC7F91-75FA-3441-A6C5-F7F8AD2A2733}</Project>
+      <Name>aom_av1_common_ssse3_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_decoder.vcxproj">
+      <Project>{B6B2B5D4-6C28-31A7-BAA5-AA04E6BCCD4E}</Project>
+      <Name>aom_av1_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder.vcxproj">
+      <Project>{C81B4336-7CB3-38F2-937A-C82ADF880C93}</Project>
+      <Name>aom_av1_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder_avx2_intrinsics.vcxproj">
+      <Project>{3E834C22-B36F-3E56-AC27-D6E054DFD2C9}</Project>
+      <Name>aom_av1_encoder_avx2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder_sse2.vcxproj">
+      <Project>{53C5CA54-6653-3EDF-8C48-3881A28ABC8E}</Project>
+      <Name>aom_av1_encoder_sse2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder_sse2_intrinsics.vcxproj">
+      <Project>{3CCB0731-D16B-3839-A479-6E21ED1646BA}</Project>
+      <Name>aom_av1_encoder_sse2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder_sse42_intrinsics.vcxproj">
+      <Project>{8F2D5917-18C0-3C32-A60D-E3FEF738D99E}</Project>
+      <Name>aom_av1_encoder_sse42_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_av1_encoder_sse4_intrinsics.vcxproj">
+      <Project>{D6F75714-1C4C-3BA7-951D-CE1C12A07E83}</Project>
+      <Name>aom_av1_encoder_sse4_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_common_app_util.vcxproj">
+      <Project>{E0C16440-2670-33CB-82A9-B8BFA64432DA}</Project>
+      <Name>aom_common_app_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_cx_set_ref.vcxproj">
+      <Project>{132BC9BF-A525-3146-B60C-2A218C0AA8F0}</Project>
+      <Name>aom_cx_set_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_decoder_app_util.vcxproj">
+      <Project>{2F6779AB-E63A-384D-8951-7E85C302E828}</Project>
+      <Name>aom_decoder_app_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp.vcxproj">
+      <Project>{D7F5935F-1E77-3F8D-9208-C96EA234F3AC}</Project>
+      <Name>aom_dsp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common.vcxproj">
+      <Project>{F6BD51F6-AEB7-3186-A12E-B88B76F34977}</Project>
+      <Name>aom_dsp_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_avx2_intrinsics.vcxproj">
+      <Project>{29790977-C47B-39D7-91C1-F7ECBE0A87E6}</Project>
+      <Name>aom_dsp_common_avx2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_sse2.vcxproj">
+      <Project>{B9471E91-2D84-3E15-8B0F-04E4641882A6}</Project>
+      <Name>aom_dsp_common_sse2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_sse2_intrinsics.vcxproj">
+      <Project>{2B5767DF-7E7F-3D3E-8CF7-D81C811B3627}</Project>
+      <Name>aom_dsp_common_sse2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_sse4_1_intrinsics.vcxproj">
+      <Project>{83BE6BCE-82E3-3D40-AC51-56FB7BA57B38}</Project>
+      <Name>aom_dsp_common_sse4_1_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_ssse3.vcxproj">
+      <Project>{E678AA6B-7987-3193-A6E0-340E78908B18}</Project>
+      <Name>aom_dsp_common_ssse3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_common_ssse3_intrinsics.vcxproj">
+      <Project>{9CF92A45-AA23-381B-999C-D39B37E95653}</Project>
+      <Name>aom_dsp_common_ssse3_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_decoder.vcxproj">
+      <Project>{C9886688-6B95-3313-A0AD-BE5702B1FA29}</Project>
+      <Name>aom_dsp_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder.vcxproj">
+      <Project>{F3CBEB52-F0C3-36C5-B4CD-24F2CA76BA7B}</Project>
+      <Name>aom_dsp_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_avx2_intrinsics.vcxproj">
+      <Project>{1C2ECC92-93AC-34C7-86A8-C3B25177B205}</Project>
+      <Name>aom_dsp_encoder_avx2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_sse2.vcxproj">
+      <Project>{0AB507C5-4908-30D9-A129-36A8460588D5}</Project>
+      <Name>aom_dsp_encoder_sse2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_sse2_intrinsics.vcxproj">
+      <Project>{0E4D011C-93CC-3AD1-8D07-C611EA233B85}</Project>
+      <Name>aom_dsp_encoder_sse2_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_sse3.vcxproj">
+      <Project>{A15459DC-49EE-3A3F-91B0-D490667FB77A}</Project>
+      <Name>aom_dsp_encoder_sse3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_sse4_1.vcxproj">
+      <Project>{8DAE2352-49C2-3A52-9E7A-87EBAB8CA6AB}</Project>
+      <Name>aom_dsp_encoder_sse4_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_sse4_1_intrinsics.vcxproj">
+      <Project>{E8B166F5-6E6B-3BDF-9219-F53E26900D1E}</Project>
+      <Name>aom_dsp_encoder_sse4_1_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_ssse3.vcxproj">
+      <Project>{2836B316-99FE-3350-B9AE-4EE8BB944101}</Project>
+      <Name>aom_dsp_encoder_ssse3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_dsp_encoder_ssse3_intrinsics.vcxproj">
+      <Project>{5CB63100-DCAB-3DA9-B80A-429A99BB2ED5}</Project>
+      <Name>aom_dsp_encoder_ssse3_intrinsics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_encoder_app_util.vcxproj">
+      <Project>{D10022CF-367D-3FB2-B96A-E864D56A84C2}</Project>
+      <Name>aom_encoder_app_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_encoder_stats.vcxproj">
+      <Project>{A06FA0F1-05B3-392F-A5E0-3FE82AE42D3C}</Project>
+      <Name>aom_encoder_stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_mem.vcxproj">
+      <Project>{83D670E9-EDCA-3348-8F64-F3AF9A01D2EE}</Project>
+      <Name>aom_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_ports.vcxproj">
+      <Project>{E196122B-4E99-3BBF-93A8-D95FAAEA8939}</Project>
+      <Name>aom_ports</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_rtcd.vcxproj">
+      <Project>{1E179FDB-05D1-39B8-BC20-FE34FC8560C3}</Project>
+      <Name>aom_rtcd</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_scale.vcxproj">
+      <Project>{028CAF5C-BD6E-3E05-B2F7-BC8F30AC3BB5}</Project>
+      <Name>aom_scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_util.vcxproj">
+      <Project>{402C625C-5D7B-38C6-8E50-E5B6CC0782E9}</Project>
+      <Name>aom_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aom_version.vcxproj">
+      <Project>{909E0156-3AA1-3668-9E2D-558A3520C162}</Project>
+      <Name>aom_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aomdec.vcxproj">
+      <Project>{A02C4DF3-1181-304B-963B-7771FF742EBF}</Project>
+      <Name>aomdec</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\aomenc.vcxproj">
+      <Project>{D547E9D2-B049-38B3-9A7B-F8ACFD596113}</Project>
+      <Name>aomenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\decode_to_md5.vcxproj">
+      <Project>{0B8B63DD-A8C7-3656-A9EC-170C9A27F6E4}</Project>
+      <Name>decode_to_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\decode_with_drops.vcxproj">
+      <Project>{CF0392F3-1D44-33D2-AC10-DB6A27DBB658}</Project>
+      <Name>decode_with_drops</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\dump_obu.vcxproj">
+      <Project>{F5E376A3-8BD5-3E8E-A60E-3590710AA87E}</Project>
+      <Name>dump_obu</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\lossless_encoder.vcxproj">
+      <Project>{4A33DA5A-3226-398D-A34D-0F15B2068975}</Project>
+      <Name>lossless_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\noise_model.vcxproj">
+      <Project>{A3025F45-3E53-3F12-83D5-3F10CD4E30C4}</Project>
+      <Name>noise_model</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\scalable_decoder.vcxproj">
+      <Project>{9C1959C0-0F66-3279-A5E6-38F307009314}</Project>
+      <Name>scalable_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\scalable_encoder.vcxproj">
+      <Project>{1B9678E2-72FE-3C5D-8DC1-D3AF2826C3B5}</Project>
+      <Name>scalable_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\set_maps.vcxproj">
+      <Project>{44366DAE-0039-342F-BA3F-884F1D940D2D}</Project>
+      <Name>set_maps</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\simple_decoder.vcxproj">
+      <Project>{C66D40D8-C07C-3753-8E7F-70B57D599F7B}</Project>
+      <Name>simple_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\simple_encoder.vcxproj">
+      <Project>{7EE8F393-8A9F-3BEC-8D78-19A2F4DD598D}</Project>
+      <Name>simple_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\test_aom_common.vcxproj">
+      <Project>{5DE748C9-A071-3F14-9FF2-4162EC1B3007}</Project>
+      <Name>test_aom_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\test_aom_decoder.vcxproj">
+      <Project>{FF99530E-EE5D-3911-AC9C-2D47F1508EA7}</Project>
+      <Name>test_aom_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\test_aom_encoder.vcxproj">
+      <Project>{D99D1761-BFEA-3834-97B2-D20E2BE858B5}</Project>
+      <Name>test_aom_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\test_intra_pred_speed.vcxproj">
+      <Project>{CD558A99-0611-357A-AEC5-9567260CBADC}</Project>
+      <Name>test_intra_pred_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\test_libaom.vcxproj">
+      <Project>{A2A5CFC1-3960-3DD5-B44B-E48DEA13AF80}</Project>
+      <Name>test_libaom</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\twopass_encoder.vcxproj">
+      <Project>{46BDCE8E-EDC3-3122-B7D2-1400E619C433}</Project>
+      <Name>twopass_encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\webm.vcxproj">
+      <Project>{C979E1B0-4DBD-3530-9002-B8E5F800EF58}</Project>
+      <Name>webm</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\aom\build\yuv.vcxproj">
+      <Project>{2F483611-7621-3BAC-AC49-B01689719166}</Project>
+      <Name>yuv</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
